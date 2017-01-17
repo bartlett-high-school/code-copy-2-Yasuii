@@ -31,6 +31,13 @@ li.hlinks {
 	display: inline-block;
 }
 
+.ilist{
+   	width: 311px;
+   	height: 200px;
+   	border-bottom: 1px solid white;
+   	border-top: 1px solid white;
+   	border-right: 1px solid white;
+}
 a.navlinks {
 	text-decoration: none;
 	color: #fff;
@@ -62,12 +69,6 @@ header {
     list-style: none;
 }
 
-
-img.hpic {
-	width: 100%;
-	height: 100%;
-}
-
 p.mainslogan {
 	text-align: center;
 	background-image: "img/made_by_apple.jpg";
@@ -78,18 +79,20 @@ section {
 	padding: 0;
 	width: 100%;
 }
-
-
-img.spics {
-	float: left;
-	width: 25%;
+	      
+ul.images{
+   	list-style: none;
+ 	margin: 0;
+ 	padding: 0;
+}
+	      
+.images li {
+	display: inline-block;
 }
         
 div.clear {
 	clear: both;
 }
-
-
 
 table {
 	width: 75%;
@@ -167,16 +170,13 @@ span.blinks {
 				<li class="himgs"><img class="navitem3" src="img/bag.png"></li>
 			</ul>
 		</nav>
-		<header>
-			<img class="hpic" src="img/slideshow.png">
-		</header>
-		<section>
-			<img class="spics" src="img/made_by_apple.png">
-			<img class="spics" src="img/ipad_pro.png">
-			<img class="spics" src="img/airpods.png">
-			<img class="spics" src="img/apple_tv.png">
-			<div class="clear"></div>
-		</section>
+  	<img src = "img/slideshow.png" alt = "iphone" class = "iphone">
+  	<ul class = "images">
+  		<li><img src = "img/made_by_apple.jpg" alt = "made" class = "ilist"></li>
+  		<li><img src = "img/ipad_pro.jpg" alt = "ipad" class = "ilist"></li>
+  		<li><img src = "img/airpods.jpg" alt = "airpods" class = "ilist"></li>
+  		<li><img src = "img/apple_tv.jpg" alt = "tv" class = "ilist"></li>
+</ul>
 		<footer>
 			<table>
 				<tr>
